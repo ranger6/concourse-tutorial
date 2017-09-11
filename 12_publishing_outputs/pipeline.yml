@@ -8,8 +8,35 @@ resources:
   type: git
   source:
     branch: master
-    uri:
-    private_key:
+    uri: git@gist.github.com:ce3e2aa9eb4ef214601ceb60a7e2aa1b.git
+    private_key: |
+        -----BEGIN RSA PRIVATE KEY-----
+        MIIEowIBAAKCAQEA4GVzkaX1H5SJQQjT5cwsLLJZWt7940py6/56liQ8JnapJxI6
+        t+UJC96+BDRyKN7a27BClFJxcX3zsUDqad0qWyW6h7cwhEA+dhhlQvldzddwuvW9
+        xv3qt1l5FdqOnUOrzZ3Ngvei2c+xOwuSHzFwS9xliT7JN26o1lSUG2+z88dhXJy1
+        KBbHAdvDnrfdige1i1VB4gVONO0/lLykSVqliw5uu2+gu+eqz7OcqvVr9bFr3txx
+        PlTt1IovpWpJnfk29gHDLYX8iR+oOwdpgI+0SD2AxUHIzFYtw6hhwrDAllndUUd4
+        8yqDYIH31Tvi0PQDiBrYydJg7n8DuQZsDdcrmwIDAQABAoIBAGuv5C1igmc8Zj4C
+        mYYvXIe6s20LlLXuNYaRoozJKOCgk36/ndRAov3CUFg+PwbkJA3H4bvCcNSxSDCp
+        YZWaYMhLK+AThsIA/ri37micuWqeWGgwpHmJw4ln89cMAuLv5dQQRd7zLoDuzjPy
+        0pYLqMOPKl8Z9YCXp4jsIAOmsKps/w+xbgKyjDkSuN8YBwclRpfZ0DF/J4CBR0tn
+        SB0fCLkXqaIBuY6LwUH0yOkyj0cMCu6RYK2d3FVKFAcjuYANovddXY945zKTMEHg
+        IzAeTl/HZKYkQAyPobhprYjJd8/nO6MJeCjH8xYVwlFE0C+nEQepCIqwYjmlJBwi
+        y0MfT8ECgYEA/s0UutSAFCRmFtdaXl55XX5kaezI66D+P2F0+mJcQ/TEjqNYFW0Z
+        osLTGyyMKTx4f2UOwq4EDC6dkxa7RlTYSSz+/YnSok99+7kviTz33iTeyD4ThyRI
+        L/OppYUkX7MobQFFKdq+vOj/npbufOEW1As5UmJNOIHnOjS2kQ+HHjsCgYEA4XO/
+        HkMTsRXol0RmLkblBnEBnGO2Y+Y1/xRiol6vm2K6moLO1hWlS0tVBqRrY60PIoz2
+        LsmhhXURF0LAOyqH1IDh+l6RGn72PwMdKQGHGOxbJN7ah9BIi7f87cIcUKmB0DYu
+        Wdqdo8qqQQcXDeDkpN0dj7foa+0Q7GKEVBiCciECgYBwucZMCatIPfo0bL38Ngu3
+        gy1ld25EYIta+wDHrTBomCdFe5qCkCvhSBQhV4oCzE/6/HiVRGtiAFWSN2JO8UZm
+        yVNeU9UuHcD81qbjLmfyjZlKObxl83VEUaZiJg87j4V5BDDXHYF5DhPY06la8jIp
+        SXXorri/ISltJNkIQDhk9QKBgQCh7X+Encrj8wdmtkLp1BOlB7+PcvLKV8vKlPqv
+        AnEAmu3KEk+65jsdlFLSfX+ATQlE2JftTPbNIyMOYOwu0sJSd+tW51sy+6Oj6Hmm
+        PSmqVgC0v7eXupqQd6qbnkK2ELljMbci5Gk6/lJAeHYviqrOWt5jnkS6V8BC+BNx
+        T1VJ4QKBgCoRza4s/g8FeQejKUCcgbRoZU0wYI84Bk2Qajos4rm1IFHtzr/bN8Jt
+        Zohkm8ahflIEy2FELYKOCaAb0tvttKU785FoYwL7CLr37gQKsrEodN/nlsD5rqfp
+        WWnq7Nf+XWGP3anwf8D/P7mQmOx73qqs9eFOGbmeYOocRuZo3Gi3
+        -----END RSA PRIVATE KEY-----
 
 jobs:
 - name: job-bump-date

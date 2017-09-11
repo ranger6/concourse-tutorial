@@ -9,11 +9,31 @@ jobs:
     params:
       build: resource-tutorial/35_push_docker_image/docker
 
+- name: job-use
+  plan:
+  - get: hello-world-docker-image
+    passed: [job-publish]
+    trigger: true
+  - task: use-task-image
+    image: hello-world-docker-image
+    config:
+      platform: linux
+      run:
+        path: sh
+        args:
+        - -exc
+        - |
+          whoami
+          env
+          ls -la
+          which hello-world
+          hello-world ranger6
+
 resources:
 - name: resource-tutorial
   type: git
   source:
-    uri: https://github.com/drnic/concourse-tutorial.git
+      uri: https://github.com/ranger6/concourse-tutorial.git
 
 - name: hello-world-docker-image
   type: docker-image

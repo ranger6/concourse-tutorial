@@ -9,7 +9,7 @@ resources:
   source:
     branch: master
     uri:
-    private_key:
+    private_key: 
 
 jobs:
 - name: job-bump-date
